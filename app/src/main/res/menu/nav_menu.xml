@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/ic_sharp_account_balance_wallet_24px"
+            android:checked="true"
+            android:title="@string/expenses" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_sharp_category_24px"
+            android:title="@string/categories" />
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_sharp_bar_chart_24px"
+            android:title="@string/statistics" />
+        <item
+            android:id="@+id/nav_reminders"
+            android:icon="@drawable/ic_sharp_access_alarm_24px"
+            android:title="@string/reminders" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_sharp_history_24px"
+            android:title="@string/history"/>
+    </group>
+</menu>
